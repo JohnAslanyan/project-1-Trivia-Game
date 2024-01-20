@@ -1,0 +1,48 @@
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    /* Light blue background */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    background-color: #ffcc5c;
+    /* Light orange header */
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 24px;
+    /* Larger text for questions */
+    margin-bottom: 15px;
+}
+
+.answers {
+    display: inline-block;
+    text-align: left;
+}
+
+.answer {
+    background-color: #ff6f69;
+    /* Soft red for answer buttons */
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.answer:hover {
+    background-color: #ffcc5c;
+    /* Change color on hover */
+}
+
+.score {
+    font-size: 20px;
+    margin-top: 20px;
+}
