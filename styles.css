@@ -1,10 +1,10 @@
 body {
     font-family: 'Comic Sans MS', 'Arial', sans-serif;
     background-color: #f0f8ff;
-    /* Light blue background */
     color: #333;
     text-align: center;
     padding: 20px;
+
 }
 
 .header {
@@ -45,4 +45,17 @@ body {
 .score {
     font-size: 20px;
     margin-top: 20px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+}
+
+.timer {
+    font-size: 18px;
+    margin-top: 10px;
 }

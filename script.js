@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const questionElement = document.getElementById('question');
     const answersElement = document.getElementById('answers');
     const scoreElement = document.getElementById('score');
-    let score = 0;
+    const timerElement = document.getElementById('timer');
+    let timer;
 
     const questions = [
         { question: 'What color is the sky on a clear day?', answers: ['Blue', 'Red', 'Green', 'Yellow'], correct: 'Blue' },
@@ -15,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { question: 'Which planet is known as the Red Planet?', answers: ['Mars', 'Jupiter', 'Saturn', 'Venus'], correct: 'Mars' },
         { question: 'What do bees collect and use to create honey?', answers: ['Pollen', 'Nectar', 'Water', 'Leaves'], correct: 'Nectar' },
         { question: 'In which direction does the sun rise?', answers: ['East', 'West', 'North', 'South'], correct: 'East' }
-
     ];
 
     let currentQuestionIndex = 0;
@@ -31,9 +31,27 @@ document.addEventListener('DOMContentLoaded', () => {
             button.addEventListener('click', () => selectAnswer(answer));
             answersElement.appendChild(button);
         });
+
+        startTimer(); // Start the timer for the question
+    }
+
+    function startTimer() {
+        let timeLeft = 10; // 10 seconds for each question
+        timerElement.textContent = `Time left: ${timeLeft}s`;
+
+        timer = setInterval(() => {
+            timeLeft--;
+            timerElement.textContent = `Time left: ${timeLeft}s`;
+
+            if (timeLeft <= 0) {
+                clearInterval(timer);
+                selectAnswer('');
+            }
+        }, 1000);
     }
 
     function selectAnswer(answer) {
+        clearInterval(timer);
         if (answer === questions[currentQuestionIndex].correct) {
             score++;
         }
