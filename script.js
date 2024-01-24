@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const scoreElement = document.getElementById('score');
     const timerElement = document.getElementById('timer');
     let timer;
+    let score = 0; // starting score
 
     const questions = [
         { question: 'What color is the sky on a clear day?', answers: ['Blue', 'Red', 'Green', 'Yellow'], correct: 'Blue' },
@@ -32,7 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
             answersElement.appendChild(button);
         });
 
-        startTimer(); // Start the timer for the question
+        updateScore();
+        startTimer(); // Start timer for the question
     }
 
     function startTimer() {
@@ -53,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function selectAnswer(answer) {
         clearInterval(timer);
         if (answer === questions[currentQuestionIndex].correct) {
-            score++;
+            score += 10; // Adds 10 points for a correct answer
         }
         currentQuestionIndex++;
         if (currentQuestionIndex < questions.length) {
@@ -63,10 +65,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function updateScore() {
+        scoreElement.textContent = `Current Score: ${score}`; // Display current score
+    }
+
     function showResults() {
         questionElement.textContent = 'Game Over!';
         answersElement.innerHTML = '';
-        scoreElement.textContent = `Your Score: ${score}/${questions.length}`;
+
+        // Check if score is 70 or more to win
+        if (score >= 70) {
+            scoreElement.textContent = `You win! Your Score: ${score}/${questions.length * 10}`;
+        } else {
+            scoreElement.textContent = `Your Score: ${score}/${questions.length * 10}`;
+        }
     }
 
     showQuestion();
