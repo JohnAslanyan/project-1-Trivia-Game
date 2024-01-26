@@ -23,3 +23,18 @@ To run the game locally:
 1. Clone the repository from GitHub.
    ```bash
    git clone https://github.com/johnaslanyan/project-1-Trivia-Game.git
+
+# Unsolved Problems
+
+In the development of this project, I encountered several challenges that remain unresolved. Addressing these would significantly enhance the functionality and user experience of my application. 
+## 1. Adding a Skip Button
+**Problem:** Implementing a feature that allows users to skip the current question and move on to the next one. This functionality is crucial for maintaining user engagement, especially when they are stuck on a particular question.
+
+## 2. Adding a Hint Function
+**Problem:** Developing a system to provide hints to users. This feature should give clues about the answer without revealing it directly, aiding the learning process and keeping the game challenging. 
+
+## 3. Ability to Eliminate Answers
+**Problem:** Creating a feature that allows users to eliminate one or more incorrect answers from the choices. This '50/50' like feature could help in narrowing down the possibilities and make the game more interactive and strategic.
+
+## 4. Generating New Questions
+**Problem:** Implementing a function to generate new questions. This is essential to keep the content fresh and engaging for repeat users.
