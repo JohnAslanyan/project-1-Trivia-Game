@@ -56,6 +56,9 @@ document.addEventListener('DOMContentLoaded', () => {
         clearInterval(timer);
         if (answer === questions[currentQuestionIndex].correct) {
             score += 10; // Adds 10 points for a correct answer
+            correctAnswerSound.play();
+        } else {
+            wrongAnswerSound.play();
         }
         currentQuestionIndex++;
         if (currentQuestionIndex < questions.length) {
@@ -83,3 +86,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     showQuestion();
 });
+
+const correctAnswerSound = new Audio('yay.wav');
+const wrongAnswerSound = new Audio('noooh.wav');
