@@ -1,24 +1,26 @@
 body {
     font-family: 'Comic Sans MS', 'Arial', sans-serif;
-    background-color: #f0f8ff;
+    background-color: #9add79;
+    /*green background */
     color: #333;
     text-align: center;
     padding: 20px;
-
 }
 
 .header {
-    background-color: #ffcc5c;
-    /* Light orange header */
+    background-color: #dfa349;
+    /* Orange header */
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
 .question {
-    font-size: 24px;
-    /* Larger text for questions */
-    margin-bottom: 15px;
+    font-size: 26px;
+    /* large text for questions */
+    color: #30475E;
+    /* Dark blue color for questions */
+    margin-bottom: 20px;
 }
 
 .answers {
@@ -27,35 +29,45 @@ body {
 }
 
 .answer {
-    background-color: #ff6f69;
-    /* Soft red for answer buttons */
-    padding: 10px 20px;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
+    background-color: #F9F871;
+    /* Yellow for answer buttons */
+    color: #6A2C70;
+    /* purple text */
+    padding: 12px 25px;
+    margin: 7px;
+    border: 2px solid #30475E;
+    /* blue border */
+    border-radius: 8px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .answer:hover {
-    background-color: #ffcc5c;
+    background-color: #FF9A8C;
     /* Change color on hover */
 }
 
-.score {
-    font-size: 20px;
+.score,
+.timer {
+    font-size: 22px;
     margin-top: 20px;
+    background-color: #dd587b;
+    /* pink background */
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* shadow */
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 15px;
     margin: auto;
-    width: 80%;
-}
-
-.timer {
-    font-size: 18px;
-    margin-top: 10px;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* shadow */
 }
