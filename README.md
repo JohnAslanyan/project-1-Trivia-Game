@@ -54,3 +54,5 @@ Acceptance Criteria:
 2. Wide Range of Topics: It should cover a broad spectrum of topics.
 
 3. Safe and Secure Environment: Ensure the game is safe for children.
+
+![screenshot](/Users/Aslanyan/sei/projects/Triviagamescreenshot.jpg)
