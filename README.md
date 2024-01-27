@@ -1,7 +1,6 @@
 # project-1-Trivia-Game
 # Kids Trivia Game
 
-Trivia game link: https://johnaslanyan.github.io/project-1-Trivia-Game/
 
 ## Description
 Kids Trivia Game is an interactive web-based quiz game designed for children. This game offers a fun and engaging way to test knowledge on various topics through multiple-choice questions.
