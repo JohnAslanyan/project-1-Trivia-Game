@@ -57,4 +57,4 @@ Acceptance Criteria:
 
 ![screenshot](/Users/Aslanyan/sei/projects/Triviagamescreenshot.jpg)
 ![Triviagamescreenshot](https://github.com/JohnAslanyan/project-1-Trivia-Game/assets/148718047/d564c2ab-b5a5-4348-8a40-f2cc9b5a4160)
-<img width="614" alt="Screenshot 2024-01-18 at 2 12 16 PM" src="https://github.com/JohnAslanyan/project-1-Trivia-Game/assets/148718047/1b483594-dcea-4764-b350-1c47d221e54c">
+
