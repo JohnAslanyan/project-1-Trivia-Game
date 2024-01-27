@@ -41,6 +41,10 @@ In the development of this project, I encountered several challenges that remain
 ## 4. Generating New Questions
 **Problem:** Implementing a function to generate new questions. This is essential to keep the content fresh and engaging for repeat users.
 
+## 5. Sound for wrong answer not working
+**Problem:**Sound Not Playing on Wrong Answers
+I have identified an issue where the sound intended to play when a user selects a wrong answer is not functioning as expected. This issue is critical to the user experience, as it provides immediate auditory feedback to the players.
+
 User Story for Kids' Trivia Game
 Title: Engaging and Educational Trivia Game for Children
 
