@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 1000);
     }
     const correctAnswerSound = new Audio('yay.wav');
-    const wrongAnswerSound = new Audio('noooh.wav');
+    const wrongAnswerSound = new Audio('Noooh.wav');
 
     function selectAnswer(answer) {
         clearInterval(timer);
