@@ -51,6 +51,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }, 1000);
     }
+    const correctAnswerSound = new Audio('yay.wav');
+    const wrongAnswerSound = new Audio('noooh.wav');
 
     function selectAnswer(answer) {
         clearInterval(timer);
@@ -88,5 +90,3 @@ document.addEventListener('DOMContentLoaded', () => {
     showQuestion();
 });
 
-const correctAnswerSound = new Audio('yay.wav');
-const wrongAnswerSound = new Audio('noooh.wav');
