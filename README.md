@@ -38,3 +38,19 @@ In the development of this project, I encountered several challenges that remain
 
 ## 4. Generating New Questions
 **Problem:** Implementing a function to generate new questions. This is essential to keep the content fresh and engaging for repeat users.
+
+User Story for Kids' Trivia Game
+Title: Engaging and Educational Trivia Game for Children
+
+As a: parent:
+
+I want: a trivia game that is both engaging and educational for children,
+
+So that: the children can learn new facts and improve their cognitive skills while having fun.
+
+Acceptance Criteria:
+1. Interactive and Kid-Friendly Interface: The game should have a colorful, engaging, and easy-to-navigate interface suitable for children.
+
+2. Wide Range of Topics: It should cover a broad spectrum of topics.
+
+3. Safe and Secure Environment: Ensure the game is safe for children.
