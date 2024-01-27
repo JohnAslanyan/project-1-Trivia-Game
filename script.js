@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
             score += 10; // Adds 10 points for a correct answer
             correctAnswerSound.play();
         } else {
-            console.log('noooh.wav');
+            console.log('Noooh.wav');
             wrongAnswerSound.play();
         }
         currentQuestionIndex++;
