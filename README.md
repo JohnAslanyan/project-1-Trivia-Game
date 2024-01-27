@@ -44,7 +44,7 @@ In the development of this project, I encountered several challenges that remain
 User Story for Kids' Trivia Game
 Title: Engaging and Educational Trivia Game for Children
 
-As a: parent:
+As a parent:
 
 I want: a trivia game that is both engaging and educational for children,
 
