@@ -57,10 +57,8 @@ Acceptance Criteria:
 
 3. Safe and Secure Environment: Ensure the game is safe for children.
 
-<<<<<<< HEAD
 
-=======
 ![Triviagamescreenshot](https://github.com/JohnAslanyan/project-1-Trivia-Game/assets/148718047/d564c2ab-b5a5-4348-8a40-f2cc9b5a4160)
 
 <img width="614" alt="Screenshot 2024-01-18 at 2 12 16 PM" src="https://github.com/JohnAslanyan/project-1-Trivia-Game/assets/148718047/14a94f41-2261-4809-bdf0-9e7036b9821a">
->>>>>>> cfe4b045ff8862b69c654ab0cdee9b31dc5f7817
+
